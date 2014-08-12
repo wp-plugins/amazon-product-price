@@ -21,3 +21,9 @@ asin e.g => http://www.amazon.com/Gopro-Water-Resistant-Case-Camkix/dp/B00KQ7SBT
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place '<?php do_shortcode("[price asin='B00KQ7SBTE']"); ?>' in your custom templates
 4. Only put the shortcode in post or pages.
+5. Go in Admin Panel under setting tab "Amazon Setting" there enter the credentials which provided by amazon.
+
+== Screenshots ==
+
+1. The options screen.
+2. The output. A bunch of thumbnails. Simple yet powerful.
