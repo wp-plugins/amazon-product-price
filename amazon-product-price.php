@@ -133,6 +133,11 @@ function amazon_setting()
             asin is found in amazon product detail page URL highlighted text is asin e.g => http://www.amazon.com/Gopro-Water-Resistant-Case-Camkix/dp/<span style='background:red;'>B00KQ7SBTE</span>/ie=UTF8?m=A3KD0OO9H1T8D3&keywords=gopro+case
             </h4>
             </p>
+            
+            <div>
+                If you enjoy plugin purchase a beer => <a href="http://wptricksbook.com/donate" title="Purchase A Beer"><img src="<?php echo  plugins_url('/includes/', __FILE__).'btn_donate_SM.gif'; ?>" /></a>
+            </div>
+            
         </div>
     </form>
 </div>
