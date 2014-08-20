@@ -22,7 +22,7 @@ Go in Admin Panel under setting tab "Amazon Setting" there enter the credentials
 
 1. Upload 'amazon-product-price' folder to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place "<?php do_shortcode("[price asin='B00KQ7SBTE']"); ?>" in your custom templates
+3. Place `<?php do_shortcode("[price asin='B00KQ7SBTE']"); ?>` in your custom templates
 4. Only put the shortcode in post or pages.
 5. Go in Admin Panel under setting tab "Amazon Setting" there enter the credentials which provided by amazon.
 
