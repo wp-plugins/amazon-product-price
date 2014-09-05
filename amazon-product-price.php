@@ -18,10 +18,11 @@ define('associate_tag', $def_det[0]->amazon_associate_tag);
 function amproductprice_install()
 {
     global $wpdb;
-
+    global $am_table_name;
+    
     $am_table_name = $wpdb->prefix . "amazon_setting";
     $am_db_version = "1.0";
-    global $am_table_name;
+    
     
    if($wpdb->get_var("show tables like '$am_table_name'") != $am_db_version) {
 
