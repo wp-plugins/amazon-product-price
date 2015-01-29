@@ -8,7 +8,7 @@ Author: Alok Tiwari
 Author URI: http://wptricksbook.com/
 */
 global $wpdb;
-
+$tblname = $wpdb->prefix . "amazon_setting";
 $def_det = $wpdb->get_results('SELECT * FROM '.$tblname.' WHERE id = 1', OBJECT );
 
 define('public_key', $def_det[0]->amazon_access_key);
@@ -31,6 +31,7 @@ function amproductprice_install()
 	  amazon_access_key VARCHAR(255) NOT NULL,
 	  amazon_secret_access_key VARCHAR(255) NOT NULL,
 	  amazon_associate_tag VARCHAR(255) NOT NULL,
+          amazon_region VARCHAR(255) NOT NULL,
 	  UNIQUE KEY id (id)
 	);";
       require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
